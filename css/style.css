@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 nav {
     background-color: #023041;      
@@ -24,7 +27,7 @@ nav {
 .menu-logo {
     width: 4rem;
     position: absolute;
-    left: 11rem;
+    left: 7rem;
     transform: translateY(-50%);
 }
 
@@ -45,14 +48,16 @@ nav {
 }  
 
 .home {
-    background-color: red;
+    background-color: #023041;
     display: flex;
     gap: 7rem;
+    height: calc(100vh - 88.6px);
+    position: relative;
+    overflow: hidden;
     
 }
 
 .home-escrito {
-    background-color: rgb(75, 2, 2);
     margin: 0 15%; 
     width: 500px;
     display: flex;   
@@ -66,7 +71,7 @@ nav {
     font-size: 4rem;
     color: white;
     font-weight: 700;
-    margin-top: 4rem;
+    margin-top: 7rem;
 }
 
 .home-escrito h3 {
@@ -79,13 +84,52 @@ nav {
 }
 
 .home-descricao {
-    background-color: rgb(75, 2, 2);
     margin: 0 15%;
-    margin-top: 1.5rem;
+    width: 26rem;
+    margin-top: 1.5rem;     
+}
 
+.home-descricao p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: white;    
+    width: 25rem;
+}
+
+.home-button {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    background-color: white;
+    color: #023041;
+    padding: 0.4rem 1.25rem;
+    border-radius: 0.625rem;
+    border: none;
+    cursor: pointer;
 }
 
 
 .hero-img img{
-    width: 30rem;
+    position: absolute;
+    z-index: 1;
+    width: 29rem;
+    margin: 50px 20px 50px 40px;
+}
+
+.gradiente {
+    position: absolute; 
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    right: -200px;
+    bottom: -200px;
+    background-color: white;
+    background: radial-gradient(circle at center, white, transparent);
+    filter: blur(60px);
+}
+
+.projetos {
+    background-color: brown;
 }
