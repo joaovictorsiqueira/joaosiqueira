@@ -6,6 +6,9 @@
     <title>João Siqueira</title>
     <meta name="description" content="Este é meu site de apresentação. Aqui você encontrará alguns dos meus projetos.">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
 </head>
 <body>
 
@@ -21,21 +24,27 @@
                     <a href="#"><li>Projetos</li></a>
                     <a href="#"><li>Sobre</li></a>
                     <a href="#"><li>Contato</li></a>
-                </ul>
-            </div>
+                </ul> 
+                               
+            </div>          
 
         </nav>
     </header>
 
-    <section>
-        <div class="home">
+    <section class="home">  
+        <div>
+            <hr>
             <div class="home-escrito">
                 <h1>JOÃO SIQUEIRA</h1>
                 <h3>Desenhando o futuro, uma linha de código de cada vez.</h3>
-                <p>Apaixonado por criar interfaces intuitivas e visuais que conectam pessoas e marcas. Front-end é minha paixão e a web é minha tela.💻</p>
+                              
+            </div>
 
+            <div class="home-descricao">
+                <p>Apaixonado por criar interfaces intuitivas e visuais que conectam pessoas e marcas. Front-end é minha paixão e a web é minha tela.💻</p>  
                 <button class="home-button"><a href="">Confira</a></button>
             </div>
+
         </div>
         
 
@@ -50,9 +59,80 @@
 
     <section class="projetos">
         <div >
+            <h2>Alguns Projetos</h2>
+            <p>Confira alguns dos projetos desenvolvidos por mim:</p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card1">
+                <span><img src="assets/img/img-card1.png" alt="imagem de um site de academia"></span>
+            </div>
+
+            <div class="card1-descricao">
+                <h4><a href="" target="_blank">Site de Academia</a></h4>
+                <p><a href="" target="_blank">Esse projeto foi feito para mostrar a importância dos exercícios para a saúde, além de dar dicas para uma vida saudável.</a></p>
+            </div>
+
+
+            <div class="card2">
+                <span><img src="assets/img/img-card2.png" alt="imagem de um site de robótica"></span>
+            </div>
+
+            <div class="card2-descricao">
+                <h4><a href="" target="_blank">Site de Robótica</a></h4>
+                <p><a href="" target="_blank">Nesse projeto é mostrado alguns objetivos da Robótica Educacional, tambem é apresentado modelos de robôs para os usuáros.</a></p>
+            </div>
+
+
+            <div class="card3">
+                <span><img src="assets/img/img-card3.png" alt="imagem de um site de cafeteria"></span>
+            </div>
+
+            <div class="card3-descricao">
+                <h4><a href="" target="_blank">Site de Cafeteria</a></h4>
+                <p><a href="" target="_blank">Um projeto desenvolvido para apresentar uma cafeteria com um ambiente agradável, contendo feedbacks de alguns clientes sobre os produtos.</a></p>
+            </div>
+
 
         </div>
     </section>
+
+
+    <section>
+        <div class="sobre">
+            <div class="sobre-texto">
+                <h2>Sobre Mim</h2>
+                <p>Sou formado em Análise e Desenvolvimento de Sistemas e a paixão pela área de front-end me impulsiona a criar interfaces cada vez mais intuitivas e agradáveis. Ao longo da minha jornada, desenvolvi diversos projetos, colocando em prática meus conhecimentos e aprimorando minhas habilidades. A busca por inovação e o desejo constante de aprender são minhas maiores motivações para evoluir profissionalmente nesse universo. 👨‍💻</p>
+            </div>
+
+            <div class="sobre-icones">
+                <span class="icones-html"><img src="assets/img/html-icone.png" alt="icone do HTML"></span>
+                <span class="icones-css"><img src="assets/img/css-icone.png" alt="icone do CSS"></span>
+                <span class="icones-js"><img src="assets/img/js-icone.png" alt="icone do JS"></span>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <span>
+            <h3>Contato</h3>            
+        </span>
+
+        <div class="icones-contato">
+            <a href=""><img src="assets/img/icone-instagram.png" alt="logo do instagram"></a>
+            <a href=""><img src="assets/img/icone-email.png" alt="logo do email"></a>
+            <a href=""><img src="assets/img/icone-linkedin.png" alt="logo do linkedin"></a>
+            <a href=""><img src="assets/img/icone-github.png" alt="logo do github"></a>
+        </div>
+
+        <p>Desenvolvido por João Victor Siqueira &copy; 2024</p>
+
+    </footer>
 
 </body>
 </html>
