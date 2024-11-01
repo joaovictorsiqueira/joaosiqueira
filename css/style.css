@@ -146,7 +146,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    filter: blur(7px);
+    filter: blur(5px);
     
 }
 
@@ -172,9 +172,13 @@ nav {
 .projetos-titulo p {
     font-family: roboto, sans-serif;
     font-weight: 700;
-    padding-top: 2.5rem;
+    margin-top: 2.5rem;
     font-size: 1.6rem;
-    color: #023041;
+    color: white;
+    background-color: #023041;
+    padding: 0.7rem 2rem;
+    border-radius: 0.8rem;
+
 }
 
 .cards {
