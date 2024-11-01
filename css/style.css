@@ -132,6 +132,22 @@ nav {
 
 .projetos {
     height: 100vh;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+}
+
+.logo-projetos img{
+    width: 90%; /* Faz a imagem ocupar toda a largura da seção */
+    height: 100%; /* Faz a imagem ocupar toda a altura da seção */
+    object-fit: cover; /* Faz a imagem preencher todo o espaço, possivelmente cortando as bordas */
+    position: absolute; /* Mantém a imagem no fundo */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: blur(6px);
+    
 }
 
 .projetos-titulo {
@@ -159,6 +175,7 @@ nav {
     padding-top: 2.5rem;
     font-size: 1.6rem;
     color: #023041;
+    
 }
 
 .cards {
