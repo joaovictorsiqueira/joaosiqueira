@@ -131,14 +131,79 @@ nav {
 }
 
 .projetos {
-    background-color: brown;
+    height: 100vh;
 }
 
 .projetos-titulo {
-    background-color: rgb(255, 0, 157);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+}
+
+.projetos-titulo h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    background-color: #023041;
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.projetos-titulo p {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    padding-top: 2.5rem;
+    font-size: 1.6rem;
+    color: #023041;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.img-card1, .img-card2, .img-card3 {
+    width: 230px; 
+    border-radius: 0.5rem; 
+    margin-top: 1.5rem;
+}
+
+.card1, .card2, .card3 {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: #023041;
+    border-radius: 1.5rem;
+}
+
+.card1-descricao,  .card2-descricao, .card3-descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 12rem;
+    text-decoration: none;
+    padding: 1.5rem 0rem 3rem 0rem;
+    gap: 0.8rem;
+}
+
+.card1-descricao h4 a,  .card2-descricao h4 a, .card3-descricao h4 a {
+    font-family: roboto, sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.card1-descricao p a,  .card2-descricao p a, .card3-descricao p a {
+    font-family: roboto, sans-serif;
+    font-size: 0.86rem;
+    color: white;
+    text-decoration: none;
 }
