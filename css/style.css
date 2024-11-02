@@ -278,3 +278,39 @@ nav {
 .icones-js img {
     height: 150px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+footer span h3 {
+    color: #023041;
+    font-family: roboto, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-top: 2rem;
+    
+}
+
+.icones-contato {
+    padding: 1rem;
+}
+
+.icones-contato img {
+    width: 50px;
+    transition: 0.4s;
+}
+
+.icones-contato img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    color: #023041;
+    padding-bottom: 1rem;
+}
