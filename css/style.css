@@ -89,7 +89,33 @@ nav {
     flex-direction: column;
     align-items: center;
 
+    /*declaração de duração da animação*/
+    -webkit-animation: home-escrito 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: home-escrito 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
+
+@-webkit-keyframes home-escrito { /*animação do título da section*/
+    0% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+    100% {
+      -webkit-transform: translateX(15%);
+              transform: translateX(15%);
+    }
+  }
+  @keyframes home-escrito {
+    0% {
+      -webkit-transform: translateX(-300px);
+              transform: translateX(-300px);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+  
 
 .home-escrito h1 {
     font-family: Fira Code, sans-serif;
@@ -111,8 +137,35 @@ nav {
 .home-descricao {
     margin: 0 15%;
     width: 26rem;
-    margin-top: 1.5rem;     
+    margin-top: 1.5rem;
+
+    /*declaração de duração da animação*/
+    -webkit-animation: home-descricao 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: home-descricao 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
 }
+
+@-webkit-keyframes home-descricao {  /*animação do parágrafo da section*/
+    0% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+    100% {
+      -webkit-transform: translateX(15%);
+              transform: translateX(15%);
+    }
+  }
+  @keyframes home-descricao {
+    0% {
+      -webkit-transform: translateX(-300px);
+              transform: translateX(-300px);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+
 
 .home-descricao p {
     font-family: Roboto, sans-serif;
@@ -133,7 +186,46 @@ nav {
     border-radius: 0.8rem;
     border: none;
     cursor: pointer;
+
+
+        /*declaração de duração da animação*/
+    -webkit-animation: home-button 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: home-button 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+
+    transition: 0.4s ease-in-out;
 }
+
+.home-button:hover { /*faz a transformação da escala quando o mouse passar em cima*/
+    scale: 1.1;
+  }
+
+
+  @-webkit-keyframes home-button { /*animação do botão da section*/
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes home-button {
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
 
 
 .hero-img img{
@@ -141,7 +233,40 @@ nav {
     z-index: 1;
     width: 29rem;
     margin: 50px 20px 50px 40px;
+
+    /*declaração de duração da animação*/
+    -webkit-animation: hero-img 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
+    animation: hero-img 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
 }
+
+@-webkit-keyframes hero-img {   /*animação de imagem da section*/
+    0% {
+      -webkit-transform: translateX(500px);
+              transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes hero-img {
+    0% {
+      -webkit-transform: translateX(500px);
+              transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+
 
 .gradiente {
     position: absolute; 
