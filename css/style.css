@@ -572,7 +572,7 @@ nav {
     font-family: Roboto, sans-serif;
     font-size: 2.3rem;
     color: white;
-    margin-top: 0px;
+    margin-top: -80px;
     
 }
 
@@ -604,11 +604,12 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 150px;
+  width: 140px;
 
 
   position: relative;
 
+  margin-top: 150px;
 }
 
 /* Define o tamanho de cada imagem */
