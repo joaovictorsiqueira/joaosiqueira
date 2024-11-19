@@ -108,7 +108,31 @@
         width: 320px;
         position: static;
         margin-top: -6rem;
-        margin-bottom: 5rem;
     }
   
+}
+
+
+@media (max-width: 780px)  {
+
+    
+
+
+
+    .projetos{
+        height: 100%;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        margin: 2rem 0rem;
+        gap: 2rem;
+    }
+
+    .card3 {
+        margin-top: 0rem;
+    }
+
+
+
 }
